@@ -15,7 +15,7 @@ Welcome to my portfolio website! This site showcases my skills, projects, and ex
 
 ## About Me
 
-I am a passionate [Your Profession] dedicated to [briefly describe your main focus or interests]. With a background in [your background], I aim to create impactful solutions through my work.
+I am a passionate tech enthusiast dedicated to create impactful solutions through my work.
 
 ## Features
 
@@ -27,13 +27,13 @@ I am a passionate [Your Profession] dedicated to [briefly describe your main foc
 
 Here are some of the projects I've worked on:
 
-1. **Project Title 1**  
+1. **Movie Recoomedation System Project**  
+   [View Project](#) | [GitHub Repo](#https://github.com/jigyasaG18/Movie-Recommendation-System-Project)
+
+2. **Multiple Disease Prediction App**  
    [View Project](#) | [GitHub Repo](#)
 
-2. **Project Title 2**  
-   [View Project](#) | [GitHub Repo](#)
-
-3. **Project Title 3**  
+3. **Fake News Prediction App**  
    [View Project](#) | [GitHub Repo](#)
 
 ## Skills
