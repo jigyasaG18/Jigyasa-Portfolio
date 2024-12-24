@@ -53,7 +53,7 @@ Check out my portfolio live at: [Portfolio Website](https://jigyasag18.github.io
 
 Feel free to reach out to me at:
 - **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/jigyasa-4503982a1)
-- **GitHub**: [GitHub](https://www.github.com/jigyasa_G18)
+- **GitHub**: [GitHub](https://www.github.com/jigyasaG18)
 
 ## License
 
