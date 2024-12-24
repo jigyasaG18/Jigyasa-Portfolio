@@ -1,22 +1,15 @@
 # My Portfolio Website
 
-Welcome to my portfolio website! This site is a reflection of my skills, projects, experiences, and passion for [Your Profession/Field, e.g., "Web Development", "Data Science", "Graphic Design"]. 
+Welcome to my portfolio website! This site is a reflection of my skills, projects, experiences, and passion for technology.
 
-## Table of Contents
+## Table of Contents in Website
 
 - [About Me](#about-me)
-- [Features](#features)
 - [Projects](#projects)
 - [Skills](#skills)
 - [Technologies](#technologies)
 - [Live Demo](#live-demo)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
-
-## About Me
-
-I am a [Your Job Title] with a background in [Your Field/Industry]. My journey in [field] began [brief history, e.g., "when I started learning programming at an early age. Since then, I've developed a passion for creating intuitive user experiences and functional applications."]. I'm committed to continuous learning and improvement, and I thrive in dynamic environments where I can solve complex problems.
 
 ## Features
 
@@ -78,7 +71,7 @@ This portfolio website is built using the following technologies:
 
 ## Live Demo
 
-You can view my portfolio live at: [https://jigyasag18.github.io/Jigyasa-Portfolio/](#). Feel free to explore my projects and get in touch if you're interested in collaborating!
+You can view my portfolio live at: [WEBSITE/](#https://jigyasag18.github.io/Jigyasa-Portfolio/). Feel free to explore my projects and get in touch if you're interested in collaborating!
 
 ## Contact
 
