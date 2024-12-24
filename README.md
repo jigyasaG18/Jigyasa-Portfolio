@@ -1,13 +1,12 @@
 # My Portfolio Website
 
-Welcome to my portfolio website! This site showcases my skills, projects, and experiences as a [Your Profession/Field, e.g., "Web Developer", "Graphic Designer"].
+Welcome to my portfolio website! This site showcases my skills, projects, and experiences as a Tech Enthusiast who aims to create impactful solutions.
 
 ## Table of Contents
 
 - [About Me](#about-me)
 - [Features](#features)
 - [Projects](#projects)
-- [Skills](#skills)
 - [Technologies](#technologies)
 - [Live Demo](#live-demo)
 - [Contact](#contact)
@@ -28,19 +27,14 @@ I am a passionate tech enthusiast dedicated to create impactful solutions throug
 Here are some of the projects I've worked on:
 
 1. **Movie Recoomedation System Project**  
-  [View Project](https://github.com/jigyasaG18/Movie-Recommendation-System-Project) | [Live Demo](#)
+  [View Project](https://github.com/jigyasaG18/Movie-Recommendation-System-Project) | [Live Demo](https://huggingface.co/spaces/jigyasaG18/Movie-Recommendation-System-Project)
 
 2. **Multiple Disease Prediction App**  
-   [View Project](#) | [GitHub Repo](#)
+   [View Project](https://github.com/jigyasaG18/Multiple-Disease-Detection-App) | [Live Demo](https://multiple-disease-prediction-app-project.streamlit.app/)
 
 3. **Fake News Prediction App**  
-   [View Project](#) | [GitHub Repo](#)
+   [View Project](https://github.com/jigyasaG18/Fake-News-Prediction-App) | [Live Demo](https://fake-news-prediction-app.streamlit.app/)
 
-## Skills
-
-- **Programming Languages**: HTML, CSS, JavaScript, [Other Languages]
-- **Frameworks/Libraries**: [List relevant frameworks]
-- **Tools**: [List tools like Git, IDEs, etc.]
 
 ## Technologies
 
@@ -52,18 +46,18 @@ This portfolio is built with a combination of the following technologies:
 
 ## Live Demo
 
-Check out my portfolio live at: [https://jigyasag18.github.io/Jigyasa-Portfolio/](https://jigyasag18.github.io/Jigyasa-Portfolio/).
+Check out my portfolio live at: [Portfolio Website](https://jigyasag18.github.io/Jigyasa-Portfolio/).
 
 
 ## Contact
 
 Feel free to reach out to me at:
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn**: [Your LinkedIn](#)
+- **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/jigyasa-4503982a1)
+- **GitHub**: [GitHub](https://www.github.com/jigyasa_G18)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ---
 
