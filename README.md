@@ -71,7 +71,7 @@ This portfolio website is built using the following technologies:
 
 ## Live Demo
 
-You can view my portfolio live at: [WEBSITE/](#https://jigyasag18.github.io/Jigyasa-Portfolio/). Feel free to explore my projects and get in touch if you're interested in collaborating!
+You can view my portfolio live at: [WEBSITE](#https://jigyasag18.github.io/Jigyasa-Portfolio/). Feel free to explore my projects and get in touch if you're interested in collaborating!
 
 ## Contact
 
