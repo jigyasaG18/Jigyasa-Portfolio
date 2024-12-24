@@ -28,7 +28,7 @@ I am a passionate tech enthusiast dedicated to create impactful solutions throug
 Here are some of the projects I've worked on:
 
 1. **Movie Recoomedation System Project**  
-   [View Project](#) | [GitHub Repo](#https://github.com/jigyasaG18/Movie-Recommendation-System-Project)
+  [View Project](https://github.com/jigyasaG18/Movie-Recommendation-System-Project) | [Live Demo](#)
 
 2. **Multiple Disease Prediction App**  
    [View Project](#) | [GitHub Repo](#)
