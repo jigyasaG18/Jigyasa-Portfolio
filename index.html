@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jigyasa Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /*======================================
+        //--//-->   ABOUT
+        ======================================*/
+        .about-mf .box-shadow-full {
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+
+        .about-mf .about-img {
+            margin-bottom: 2rem;
+        }
+
+        .about-mf .about-img img {
+            margin-left: 10px;
+        }
+
+        .skill-mf .progress {
+            margin: .5rem 0 1.2rem 0;
+            border-radius: 0;
+            height: .7rem;
+        }
+
+        .skill-mf .progress .progress-bar {
+            height: .7rem;
+            background-color: #ffbd39;
+        }
+
+        /* Animation styles */
+        #typing-animation {
+            position: relative;
+            font-size: 30px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 3s steps(20, end) infinite;
+        }
+
+        #typing-animation:before {
+            content: "";
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background-color: #ccc;
+            animation: typing-cursor 0.5s ease-in-out infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes typing-cursor {
+            from {
+                width: 5px;
+            }
+            to {
+                width: 0;
+            }
+        }
+
+        /* project image zoom effect */
+        .zoom-effect {
+            overflow: hidden;
+            transition: transform 0.3s ease-out;
+        }
+
+        .zoom-effect:hover {
+            transform: scale(1.1);
+        }
+        
+        .code-container {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            width: 100%;
+            border: none;
+            padding: 10px;
+            font-family: monospace;
+            overflow: auto;
+            display: inline-block; /* Required for animation */
+            border-radius: 8px; /* Rounded corners for aesthetic */
+            transition: box-shadow 0.3s ease; /* Smooth transition */
+            cursor: pointer; /* Pointer cursor on hover */
+            margin-top: 10px;
+        }
+
+        /* Shine effect styles */
+        .shine {
+            animation: shine 1.5s infinite alternate; /* Shine animation */
+        }
+
+        @keyframes shine {
+            0% {
+                box-shadow: 0 0 5px #fff, 0 0 15px #eff308;
+            }
+            100% {
+                box-shadow: 0 0 20px #fff, 0 0 30px  #bef105;
+            }
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Jigyasa</a>
+            <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav nav ml-auto">
+                    <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                    <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+                    <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+                    <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+                    <li class="nav-item"><a href="#virtual-internship-programme-section" class="nav-link"><span>Virtual Internship Programme</span></a></li>
+                    <li class="nav-item"><a href="#certification-section" class="nav-link"><span>Certifications</span></a></li>
+                    <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home-section" class="hero">
+        <div class="home-slider owl-carousel">
+            <div class="slider-item">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+                        <div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bgpic.jpg);">
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                            <div class="text">
+                                <span class="subheading">Hello!</span>
+                                <h1 class="mb-4 mt-3">I'm <span>Jigyasa</span></h1>
+                                <span id="typing-animation"></span>
+                                <script>
+                                    const typingAnimationElement = document.getElementById('typing-animation');
+                                    const typingTexts = ['Student  ', 'Tech Enthusiast '];
+
+                                    function playTypingAnimation(text) {
+                                        for (let i = 0; i < text.length; i++) {
+                                            setTimeout(() => {
+                                                typingAnimationElement.textContent += text[i];
+                                            }, i * 200);
+                                        }
+
+                                        setTimeout(() => {
+                                            typingAnimationElement.textContent = '';
+                                            playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+                                        }, text.length * 200);
+                                    }
+
+                                    playTypingAnimation(typingTexts[0]);
+                                </script>
+                                <br><br>
+                                <h2>A Tech Enthusiast</h2>
+                                <p><a href="https://github.com/jigyasaG18" class="btn btn-white btn-outline-primary py-3 px-4">My works</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="row d-flex align-items-stretch">
+                    <div class="col-md-6 col-lg-5 d-flex">
+                        <div class="img-about img d-flex align-items-stretch">
+                            <div class="overlay">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="about-img">
+                                            <img src="images/bgpic.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-7">
+                                        <div class="about-info">
+                                            <p><span class="title-s">Name: </span> <span>Jigyasa</span></p>
+                                            <p><span class="title-s">Role: </span> <span>Student </span></p>
+                                            <p><span class="title-s">Experience: </span> <span>Fresher</span></p>
+                                            <p><span class="title-s">Address: </span> <span>Delhi, India</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-mf">
+                                    <p class="title-s">Skills</p>
+                                    <span>C</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <span>C++</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <span>HTML</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+									<span>CSS</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+									<span>JavaScript</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <span>Statistical Analysis</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <span>Machine Learning</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+									<span>MS-Excel</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+									<span>Power BI</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                    <span>SQL</span> <span class="pull-right"></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+                        <div class="row justify-content-start pb-3">
+                            <div class="col-md-12 heading-section ftco-animate">
+                                <h1 class="big">About</h1>
+                                <h2 class="mb-4">About Me</h2>
+                                <p>As a BTECH CSE student, I possess a strong foundation in my chosen field and have gained valuable skills through academic coursework. My exceptional time management abilities, coupled with my dedication to continuous learning, make me an asset to any organization. With a passion for excellence and a drive to succeed, I am eager to contribute my talents to the professional tech world.</p>
+                                <ul class="about-info mt-4 px-md-0 px-2">
+                                    <li class="d-flex"><span>Profile:</span> <span>AIML Enthusiast</span></li>
+                                    <li class="d-flex"><span>Field:</span> <span>Computer Science</span></li>
+                                    <li class="d-flex"><span>Education:</span> <span>Bachelor of Technology</span></li>
+                                    <li class="d-flex"><span>Language:</span> <span>English, Hindi</span></li>
+                                    <li class="d-flex"><span>Skills:</span> <span>C, C++, HTML</span></li>
+                                    <li class="d-flex"><span>Interest:</span> <span>Travelling</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                            <div class="text">
+                                <p class="mb-4">
+                                    <span class="number" data-number="15">0</span> <span>+</span>
+                                    <span> Projects Completed</span>
+                                </p>
+                                <p style="display: flex; gap: 30px;">
+									<a href="https://www.linkedin.com/in/jigyasa-4503982a1/" class="btn btn-primary py-3 px-3">LinkedIn</a>
+									<a href="https://www.github.com/jigyasaG18" class="btn btn-primary py-3 px-3">GitHub</a>
+								</p>
+                                <div class="code-container" id="codeSnippet">
+                                    do {<br>
+                                    &nbsp;&nbsp;code.write();<br>
+                                    } <br>
+                                    while (!code.is_successful());<br>
+                                    std::cout << "Every attempt is a step forward!" << std::endl;
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<section class="ftco-section ftco-no-pb" id="resume-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<div class="row">
+                        <h2 class="big-4">Resume</h2>
+                        <div class="underline"></div>
+                    </div>
+                    <br>
+					<p>Delhi, India | 
+					<a href="https://linkedin.com/in/jigyasa-4503982a1">LinkedIn</a> | 
+					<a href="https://github.com/jigyasaG18">GitHub</a> | 
+					<a href="https://jigyasag18.github.io/Jigyasa-Portfolio/">Portfolio Website</a></p>
+					<h3 class="mt-5"><b>EDUCATION</b></h3>
+					<p><strong>Guru Tegh Bahadur 4th Centenary Engineering College, GGSIPU</strong>, New Delhi, India<br> 
+					BTech in Computer Science and Engineering (2022 – 2026) <br>
+					</p>
+					
+					<h3 class="mt-5"><b>SKILLS</b></h3>
+					<ul>
+						<li><strong>Languages:</strong> C, C++, Python, HTML, CSS, JavaScript</li>
+						<li><strong>Tools and Frameworks:</strong> Numpy, Pandas, Scikit-Learn, Git, Power BI, SQL</li>
+					</ul>
+					
+					<h3 class="mt-5"><b>PROJECTS</b></h3>
+					<h4>1. Multiple Disease Detection App <a href="https://multiple-disease-prediction-app-project.streamlit.app/">Link</a></h4>
+					<ul>
+						<li>Designed and implemented a multi-disease prediction system achieving accuracy rates up to 87.18%.</li>
+						<li>Utilized Python, Pandas, and scikit-learn for data manipulation and model training.</li>
+						<li>Created intuitive interfaces and visualizations in Jupyter Notebooks for EDA.</li>
+					</ul>
+					
+					<h4>2. Fake News Prediction App <a href="https://fake-news-prediction-app.streamlit.app/">Link</a></h4>
+					<ul>
+						<li>Developed a predictive model utilizing Logistic Regression with a classification accuracy of 97% on a dataset of 20,000 articles.</li>
+						<li>Employed vectorization and stemming to preprocess text data, enhancing model performance.</li>
+						<li>Built an interactive user interface with Streamlit, aimed at reducing online misinformation.</li>
+					</ul>
+					
+					<h4>3. Movie Recommendation System <a href="https://huggingface.co/spaces/jigyasaG18/Movie-Recommendation-System-Project">Link</a></h4>
+					<ul>
+						<li>Implemented a personalized recommendation system using cosine similarity for a dataset of 5,000 films.</li>
+						<li>Executed data cleaning to ensure accuracy, streamlining movie discovery.</li>
+						<li>Designed an intuitive interface with Streamlit for easy navigation of personalized recommendations.</li>
+					</ul>
+					
+					<h3 class="mt-5"><b>ACHIEVEMENTS</b></h3>
+					<ul>
+						<li>Mentor at GSSOC'24, providing guidance to students in their open-source projects.</li>
+						<li>Awarded Best Mentee in AI/ML domain among 150+ students by MSC-IGDTUW.</li>
+						<li>Prequalified for Internal SIH '24, earning a spot in the Smart India Hackathon Internal Round.</li>
+						<li>Finalist in YBEP'24, achieving top 10 in the Young Barons Elevator Pitch organized by Greenbucks, IGDTUW.</li> 
+						<li>Student Coordinator: Successfully organized a technical event at college, fostering collaboration & innovation.</li>
+                        <li>Postman API Fundamentals Student Expert, learnt about APIs & their importance in software development.</li>
+                        <li>Granted a scholarship by SheCodes Foundation and I have been featured in their Hall of Fame.</li>
+                    </ul>
+
+                    <h3 class="mt-5"><b>LANGUAGES</b></h3>
+						<p align="center"><strong>English , Hindi</strong></p>
+
+				</div>
+			</div>
+		</div>
+	</section>
+            <div class="row">
+                <h1 class="big-4">Experience</h1>
+                <div class="underline"></div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">July 2024 - September 2024</span>
+                        <h2>Software Engineering Fellow-REMOTE</h2>
+                        <h5>Headstarter</h5>
+                        <p class="mt-4">Headstarter is building the #1 community for emerging software engineers. In an era where learning is being commoditized, they want to bring community and real human feedback for future tech leaders of the world.
+                        <ul>
+                            <li>This was a 7-week software engineering fellowship.</li>
+                            <li>The program consisted of building 5 AI projects, 5 weekend hackathons, 1 final project with 1000+ users, interview prep, resume reviews and feedback from real software engineers.</li>
+							<li>Created a personal portfolio website showcasing technical skills and projects, including Power BI dashboards for financial risk analysis yielding a 28.8% revenue increase.</li>
+						<li>Managed SQL databases for financial analytics, ensuring data accuracy & revealing insights, including a 16% attrition rate.</li>
+						<li>Developed interactive visualizations with Power BI to present data-driven solutions, emphasizing analytical capabilities.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">May 2024 - July 2024</span>
+                        <h2>Project Research Summer Intern</h2>
+                        <h5>DRDO, New Delhi</h5>
+                        <p class="mt-4">DRDO is the R&D wing of the Ministry of Defence, Govt of India, with a vision to empower India with cutting-edge defence technologies and a mission to achieve self-reliance in critical defence technologies and systems, while equipping our armed forces with state-of-the-art weapon systems and equipment.
+                        <ul>
+                            <li>Performed research and analysis on a project related to COMPUTER NETWORKING.</li>
+                            <li>Project Title- Architecture of a Network Enterprise</li>
+							<li>Studied the OSI Model to understand data flow and network layer functionalities in the context of network architecture design.</li>
+						<li>Applied subnetting principles to develop IP addressing schemes for a proposed campus network design.</li>
+						<li>Designed a campus network architecture leveraging knowledge of the OSI model & subnetting strategies.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <h1 class="big-4">Activities</h1>
+                <div class="underline"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">March 2024 - September 2024</span>
+                        <h2>SheCodes Foundation Scholar</h2>
+                        <h5>SheCodes</h5>
+                        <p class="mt-4">SheCodes is there to help provide women in developing countries with the opportunity to learn how to code for free. SheCodes offers a solid introduction to product development, product design and product management.
+                        <ul>
+                            <li>I was granted a scholarship by SheCodes Foundation and I have been featured in their Hall of Fame.</li>
+                            <li>My SheCodes Profile Link can be accessed at <a href="https://www.shecodes.io/graduates/117343-jigyasa" target="_blank">SheCodes Scholar</a></li>
+                            <ul>
+                                <li>Developed an interactive <strong>World Clock Generator</strong> that allows users to view the current time in multiple time zones, enhancing time management for global interactions.</li>
+                                <li>Created an <strong>AI Poem Generator</strong> that provides personalized content based on user input, showcasing the power of AI in enhancing creativity and inspiration.</li>
+                                <li>Built a functional <strong>Weather App</strong> that retrieves and displays real-time weather data using external APIs, allowing users to stay informed about local weather conditions.</li>
+                                <li>Designed an engaging <strong>Landing Page</strong> that effectively communicates a product’s value proposition, resulting in improved user engagement and conversion rates.</li>
+                                <li>Utilized a combination of <strong>HTML, CSS, and JavaScript</strong> to create user-friendly interfaces for all projects, ensuring an intuitive user experience.</li>
+                                <li>Implemented deployment solutions using <strong>Netlify</strong>, enabling easy access to applications and seamless user interaction.</li>
+                                <li>Gained valuable insights into <strong>AI technology</strong> and web development practices through the <strong>SheCodes Plus</strong> courses, enriching my skill set as a developer.</li>
+                            </ul>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">June 2024 - August 2024</span>
+                        <h2>SheFi Scholar</h2>
+                        <h5>SheFi</h5>
+                        <p class="mt-4">SheFi is a community of 3,000 global, curious, forward-thinking, creative women supporting you on your Web3 journey. Their values are openness, kindness, inclusion, interdependence, and collaboration.
+                        <ul>
+                            <li>Awarded a scholarship for 2.5 months workshops on blockchain.</li>
+                            <ul>
+                                <li>Participated in the <strong>SheFi Scholar</strong> program, a community of 3,000 innovative women supporting each other on their Web3 journeys.</li>
+                                <li>Awarded a scholarship for a series of in-depth workshops on blockchain technology, enhancing my understanding of decentralized systems and their applications.</li>
+                                <li>Selected to participate in two consecutive seasons (11 and 12) of the program, demonstrating my commitment to learning and collaboration within the Web3 space.</li>
+                                <li>Engaged in a collaborative learning environment that emphasizes <strong>openness, kindness, and inclusion</strong>, fostering valuable connections with other forward-thinking women in tech.</li>
+                                <li>Developed skills in blockchain fundamentals, smart contracts, and decentralized applications, positioning myself as a knowledgeable contributor to the Web3 community.</li>
+                                <li>Collaborated on group projects with fellow scholars, fostering teamwork and problem-solving skills while exploring real-world applications of blockchain technology.</li>
+                                <li>Participated in mentorship sessions with industry experts, gaining invaluable insights and guidance on navigating career opportunities within the rapidly evolving Web3 landscape.</li>
+                                <li>Contributed to community discussions and workshops.</li>
+                            </ul>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <br><br>
+
+            <div class="row">
+                <h1 class="big-4">Education</h1>
+                <div class="underline"></div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">2022-2026</span>
+                        <h2>Bachelor of Technology in CSE</h2>
+                        <span class="position">Guru Tegh Bahadur 4th Centenary Engineering College</span>
+                        <span class="position"><p>Guru Gobind Singh Indraprastha University</span></p>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-6 text-center ftco-animate">
+                        <p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <section class="ftco-section" id="project-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Projects</h1>
+                    <div class="row">
+                        <h2 class="big-4">Projects</h2>
+                        <div class="underline"></div>
+                    </div>
+					<p><h5>Below are some projects I made.</h5></p>
+				</div>
+			</div>
+	
+			<div class="row">
+				<!-- Project 1 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/Movie-Recommendation-System-Project" class="block-20 zoom-effect" style="background-image: url('images/1.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/Movie-Recommendation-System-Project"><center>Movie Recommendation System</center></a></h3>
+							<p>This is a personalized movie recommendation system that offers tailored suggestions to users. It leverages a dataset of 5,000 English-language films and utilizes data processing, feature engineering, and a cosine similarity algorithm to analyze user preferences. The system includes an intuitive user interface for easy navigation.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 2 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/Fake-News-Prediction-App" class="block-20 zoom-effect" style="background-image: url('images/2.jpg');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/Fake-News-Prediction-App"><center>Fake News Prediction App</center></a></h3>
+							<p>The Fake News Prediction App Repository offers a machine learning project that focuses on identifying the authenticity of news articles as fake or real. It uses a dataset of 20,000 articles and employs methods such as TF-IDF vectorization and the Porter stemming algorithm, achieving around 97% classification accuracy with logistic regression model.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 3 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/Multiple-Disease-Detection-App" class="block-20 zoom-effect" style="background-image: url('images/3.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/Multiple-Disease-Detection-App"></a><center>Multiple Disease Detection App</center></h3>
+							<p>This project contains the implementation of a Multiple Disease Detection System, which employs advanced machine learning techniques for early detection and prediction of prevalent diseases, including diabetes, heart disease, and Parkinson's disease. The system utilizes a variety of patient health metrics such as demographics and medical history.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 4 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/Misartculation-Site-For-Children" class="block-20 zoom-effect" style="background-image: url('images/4.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/Misartculation-Site-For-Children"><center>Misartculation Site For Children</center></a></h3>
+							<p>Speech Ease is an innovative online platform designed to assist children aged 3-5 with speech articulation disorders, or misarticulation. It offers engaging resources in Hindi and English to improve communication skills, build self-esteem, and promote social interactions. Key features include a child-friendly interface, accurate speech detection.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 5 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/SONAR-Rock-vs-Mine-Prediction-ML-Project" class="block-20 zoom-effect" style="background-image: url('images/5.jpg');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/SONAR-Rock-vs-Mine-Prediction-ML-Project">
+								<center>SONAR Rock vs Mine Prediction</center></a></h3>
+							<p>This contains a machine learning project that classifies SONAR reading data to distinguish between rocks and mines. It implements various classification models,evaluates their performance,and features a user-friendly web application deployed with Streamlit for real-time predictions. The project is aimed to help in safe marine operations.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 6 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/Gold-Price-Prediction-Project-using-Machine-Learning" class="block-20 zoom-effect" style="background-image: url('images/6.jpg');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/Gold-Price-Prediction-Project-using-Machine-Learning"><center>Gold Price Prediction</center></a></h3>
+							<p>This contains a machine learning project focused on predicting gold prices (GLD) using historical stock market data, including indicators such as SPX, USO, SLV, and EUR/USD. The project implements a Random Forest Regressor for accurate price forecasting, complete with data visualization, correlation analysis, and model evaluation metrics.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 7 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/HR-Analytics-Power-BI-Dashboard" class="block-20 zoom-effect" style="background-image: url('images/7.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/HR-Analytics-Power-BI-Dashboard"><center>HR Analytics Power BI Dashboard</center></a></h3>
+							<p>The HR Analytics Power BI Dashboard project focuses on developing a comprehensive tool to analyze and visualize key performance indicators related to employee attrition and retention. It features interactive visualizations that enable HR professionals to explore data, identify trends, and make informed decisions. The dashboard integrates the data.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 8 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/Financial-Risk-Analysis-Project" class="block-20 zoom-effect" style="background-image: url('images/8.jpg');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/Financial-Risk-Analysis-Project"><center>Credit Card Financial Risk Analysis Dashboard</center></a></h3>
+							<p>The Credit Card Financial Risk Analysis Dashboard is a real-time Power BI tool designed to provide insights into credit card transactions and customer demographics. It features interactive visualizations, efficient data processing, and actionable insights to support decision-making. Utilizing data from SQL database, the dashboard tracks key metrics.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 9 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/Data-Analysis-using-MS-Excel" class="block-20 zoom-effect" style="background-image: url('images/9.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/Data-Analysis-using-MS-Excel"><center>Data Analysis of Ambuvians Healthcare</center></a></h3>
+							<p>This project is on analyzing real-time data from Ambuvians Healthcare, a health products startup. It included data cleaning, such as removing duplicates and addressing missing values, followed by analyses to reveal insights into sales trends, customer demographics, and purchasing behaviors. Visualizations in MS-Excel including bar and pie charts.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 10 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/Amazon-Prime-Power-BI-Dashboard" class="block-20 zoom-effect" style="background-image: url('images/10.jpeg');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/Amazon-Prime-Power-BI-Dashboard"><center>Amazon Prime Power BI Dashboard</center></a></h3>
+							<p>The Amazon Prime Power BI Project is a centralized data storage system containing detailed information on movies and TV shows available on Amazon Prime Video, including metadata and analytics insights. It supports data-driven decision-making for content acquisition and viewer engagement strategies. This project is optimized for querying & analysis.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 11 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/Amazon-Power-BI-Dashboard" class="block-20 zoom-effect" style="background-image: url('images/11.jpeg');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/Amazon-Power-BI-Dashboard"><center>Amazon Power BI Dashboard</center></a></h3>
+							<p>The Amazon Power BI Dashboard Project provides an interactive analytics dashboard for visualizing and analyzing sales performance across various product categories within Amazon's ecosystem. Utilizing comprehensive sales data, it empowers stakeholders with actionable insights to enhance decision-making and improve business strategies.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 12 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/IBM-Power-BI-Dashboard-Project" class="block-20 zoom-effect" style="background-image: url('images/12.jpeg');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/IBM-Power-BI-Dashboard-Project"><center>IBM Power BI Dashboard Project</center></a></h3>
+							<p>IBM Power BI Dashboard Project is a data-driven analysis of employees using IBM's comprehensive dataset, providing insights into key factors contributing to employee turnover and enabling organizations to strategize effectively towards improved employee retention and satisfaction.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 13 -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/Orders-Sales-Analysis-Report-Using-Power-BI" class="block-20 zoom-effect" style="background-image: url('images/13.jpeg');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/Orders-Sales-Analysis-Report-Using-Power-BI"><center>Orders Sales Analysis Report</center></a></h3>
+							<p>This project analyzes and visualizes office supply sales data to improve profitability. It examines sales performance by various factors, using charts to provide insights and actionable recommendations for sales optimization, market research, and product mix.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Project 14-->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/Weather-Web-App" class="block-20 zoom-effect" style="background-image: url('images/14.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/Weather-Web-App"><center>Weather Web App</center></a></h3>
+							<p>This enhanced weather app provides real-time weather information by integrating a third-party API, displaying essential data such as wind speed, weather descriptions, and icons for a clear visual representation. The application includes a search functionality for users to find weather details in their desired locations.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!--Project 15-->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/AI-Poem-Generator" class="block-20 zoom-effect" style="background-image: url('images/15.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/AI-Poem-Generator"><center>AI Poem Generator</center></a></h3>
+							<p>This project is an AI-driven content generator that allows users to input personal instructions and receive customized outputs, including poems, jokes, recipes, quotes, travel destinations, and baby names. Enhances creativity and inspiration with tailored responses based on user preferences.</p>
+						</div>
+					</div>
+				</div> 
+
+                <!--Project 16-->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/World-Clock-Generator" class="block-20 zoom-effect" style="background-image: url('images/16.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/World-Clock-Generator"><center>World Clock Generator</center></a></h3>
+							<p>This project is a timezone converter that displays current dates and times for three different locations across various time zones. Users can select from a dropdown menu of at least three locations to view the corresponding time. The application also features a link to the homepage for easy navigation and displays the date and time for the users.</p>
+						</div>
+					</div>
+				</div> 
+
+                <!-- Project 17
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/AI-Poem-Generator" class="block-20 zoom-effect" style="background-image: url('images/15.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/AI-Poem-Generator"><center>AI Poem Generator</center></a></h3>
+							<p>This project is an AI-driven content generator that allows users to input personal instructions and receive customized outputs, including poems, jokes, recipes, quotes, travel destinations, and baby names. Enhances creativity and inspiration with tailored responses based on user preferences.</p>
+						</div>
+					</div>
+				</div> 
+
+                Project 18
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/AI-Poem-Generator" class="block-20 zoom-effect" style="background-image: url('images/15.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/AI-Poem-Generator"><center>AI Poem Generator</center></a></h3>
+							<p>This project is an AI-driven content generator that allows users to input personal instructions and receive customized outputs, including poems, jokes, recipes, quotes, travel destinations, and baby names. Enhances creativity and inspiration with tailored responses based on user preferences.</p>
+						</div>
+					</div>
+				</div> 
+
+                Project 19
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/AI-Poem-Generator" class="block-20 zoom-effect" style="background-image: url('images/15.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/AI-Poem-Generator"><center>AI Poem Generator</center></a></h3>
+							<p>This project is an AI-driven content generator that allows users to input personal instructions and receive customized outputs, including poems, jokes, recipes, quotes, travel destinations, and baby names. Enhances creativity and inspiration with tailored responses based on user preferences.</p>
+						</div>
+					</div>
+				</div> 
+
+                Project 20
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/AI-Poem-Generator" class="block-20 zoom-effect" style="background-image: url('images/15.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/AI-Poem-Generator"><center>AI Poem Generator</center></a></h3>
+							<p>This project is an AI-driven content generator that allows users to input personal instructions and receive customized outputs, including poems, jokes, recipes, quotes, travel destinations, and baby names. Enhances creativity and inspiration with tailored responses based on user preferences.</p>
+						</div>
+					</div>
+				</div> 
+
+                Project 21
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/AI-Poem-Generator" class="block-20 zoom-effect" style="background-image: url('images/15.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/AI-Poem-Generator"><center>AI Poem Generator</center></a></h3>
+							<p>This project is an AI-driven content generator that allows users to input personal instructions and receive customized outputs, including poems, jokes, recipes, quotes, travel destinations, and baby names. Enhances creativity and inspiration with tailored responses based on user preferences.</p>
+						</div>
+					</div>
+				</div> 
+
+                Project 22
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/jigyasaG18/AI-Poem-Generator" class="block-20 zoom-effect" style="background-image: url('images/15.png');"></a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/jigyasaG18/AI-Poem-Generator"><center>AI Poem Generator</center></a></h3>
+							<p>This project is an AI-driven content generator that allows users to input personal instructions and receive customized outputs, including poems, jokes, recipes, quotes, travel destinations, and baby names. Enhances creativity and inspiration with tailored responses based on user preferences.</p>
+						</div>
+					</div>
+				</div>  -->
+
+			</div>
+		</div>
+	</section>
+
+	<!-- New Virtual Internship Section -->
+    <section class="ftco-section" id="virtual-internship-programme-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-5">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Virtual Internship Programme</h1>
+                    <div class="row">
+                        <h2 class="big-4">Virtual Internship Experience</h2>
+                        <div class="underline"></div>
+                    </div>
+                    <p><h5>Details about my virtual internship experience.</h5></p>
+                </div>
+            </div>
+			<div class="row">
+                <!-- Certification 1 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/9.jpeg" target="_blank">
+                            <img src="certifications/9.jpeg" alt="Certification 1" class="img-fluid cert-img">
+                        </a>
+                        <h5><b><center>Bank of America Global Markets Sales and Trading Analyst</center></b></h5>
+                        <p>I completed a job simulation in the sales and trading division, where I analyzed market trends using Excel and Bloomberg to provide client-centric solutions. My work involved conducting in-depth data analysis, recommending strategies to optimize trade execution and workflow efficiency, and developing a tailored client proposal focused on investment strategies like portfolio diversification and sustainable growth.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 2 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/10.jpeg" target="_blank">
+                            <img src="certifications/10.jpeg" alt="Certification 2" class="img-fluid cert-img">
+                        </a>
+                        <h5><b><center>JPMorgan Chase & Co. Quantitative Research</center></b></h5>
+                        <p>I completed JPMorgan Chase & Co.'s Quantitative Research on Forage, where I engaged in a simulation focused on quantitative research methods. I analyzed a loan portfolio to estimate customer default probabilities and utilized dynamic programming to convert FICO scores into categorical data for predictive modeling of defaults.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 3 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/11.jpeg" target="_blank">
+                            <img src="certifications/11.jpeg" alt="Certification 3" class="img-fluid cert-img">
+                        </a>
+                        <h5><b><center>Accenture North America Data Analytics and Visualization</center></b></h5>
+                        <p>I completed Accenture North America's Data Analytics and Visualization simulation on Forage, where I acted as a Data Analyst advising a hypothetical social media client. I cleaned, modeled, and analyzed seven datasets to uncover insights into content trends, and I prepared a PowerPoint deck and video presentation to communicate key findings to the client and internal stakeholders.</p>
+                    </div>
+                </div>
+<!-- Certification 4 -->
+<div class="col-md-4 ftco-animate">
+	<div class="certification-wrap">
+		<a href="certifications/12.jpeg" target="_blank">
+			<img src="certifications/12.jpeg" alt="Certification 4" class="img-fluid cert-img">
+		</a>
+		<h5><b><center>J.P. Morgan Software Engineering</center></b></h5>
+		<p>I completed J.P. Morgan's Software Engineering simulation on Forage, where I established a local development environment by downloading the necessary files, tools, and dependencies. I also fixed broken files in the repository to ensure the web application functioned correctly. Additionally, I utilized J.P. Morgan Chase’s open-source library, Perspective, to create a live graph that effectively displays a data feed for traders, enhancing visual clarity and usability.</p>
+	</div>
+</div>
+
+<!-- Certification 5 -->
+<div class="col-md-4 ftco-animate">
+	<div class="certification-wrap">
+		<a href="certifications/13.jpeg" target="_blank">
+			<img src="certifications/13.jpeg" alt="Certification 5" class="img-fluid cert-img">
+		</a>
+		<h5><b><center>Walmart USA Advanced Software Engineering</center></b></h5>
+		<p>I completed Walmart USA's Advanced Software Engineering simulation on Forage, where I addressed complex technical projects for various teams. I developed an innovative heap data structure in Java for the shipping department, designed a UML class diagram for a data processor with multiple operating modes, and created an entity relationship diagram for a new database tailored to Walmart’s pet department requirements.</p>
+	</div>
+</div>
+
+<!-- Certification 6 -->
+<div class="col-md-4 ftco-animate">
+	<div class="certification-wrap">
+		<a href="certifications/14.jpeg" target="_blank">
+			<img src="certifications/14.jpeg" alt="Certification 6" class="img-fluid cert-img">
+		</a>
+		<h5><b><center>Goldman Sachs Software Engineering</center></b></h5>
+		<p>I completed Goldman Sachs's Software Engineering simulation on Forage as a governance analyst, where I assessed IT security and identified an outdated password hashing algorithm through password cracking with Hashcat. I wrote a memo proposing enhancements to strengthen password protection, including extending minimum password length and adopting a dedicated hashing algorithm.</p>
+	</div>
+</div>
+        </div>
+    </section>
+
+
+    <!-- New Certifications Section -->
+    <section class="ftco-section" id="certification-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-5">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">My Certifications</h1>
+                    <div class="row">
+                        <h2 class="big-4">My Certifications</h2>
+                        <div class="underline"></div>
+                    </div><br>
+                    <h5>Here are some certifications I have acquired throughout my career.</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Certification 1 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/1.png" target="_blank">
+                            <img src="certifications/1.png" alt="Certification 1" class="img-fluid cert-img">
+                        </a>
+                        <h3><b><center>GSSOC Extd'24 Mentor</center></b></h3>
+                        <p>As a mentor in the GirlScript Summer of Code (GSSOC) 2024, I guided aspiring developers in the data domain, helping them enhance their skills and contribute to impactful open-source projects. It was a rewarding experience fostering growth and collaboration in the tech community.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 2 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/2.jpeg" target="_blank">
+                            <img src="certifications/2.jpeg" alt="Certification 2" class="img-fluid cert-img">
+                        </a>
+                        <h3><b><center>SheFi Scholar Season-11</center></b></h3>
+                        <p>I received a full scholarship for the SheFi Scholars Program (Season 11), a transformative 3-month bootcamp focused on Web3 technologies. This immersive experience allowed me to connect with a dynamic community of women.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 3 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/3.jpeg" target="_blank">
+                            <img src="certifications/3.jpeg" alt="Certification 3" class="img-fluid cert-img">
+                        </a>
+                        <h3><b><center>SheFi Scholar Season-12</center></b></h3>
+                        <p>I received a full scholarship for the SheFi Scholars Program (Season 12), a transformative 3-month bootcamp focused on Web3 technologies and empowering each other to excel in the Web3 space, truly embodying the spirit of "The Frontier is Feminine."</p>
+                    </div>
+                </div>
+
+                <!-- Certification 4 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/4.png" target="_blank">
+                            <img src="certifications/4.png" alt="Certification 4" class="img-fluid cert-img">
+                        </a>
+                        <h3><b><center>IICPC Participant</center></b></h3>
+                        <p>Passionate about problem-solving and algorithmic thinking, I participated in the Inter IIT Competitive Programming Conclave (IICPC) Summer Camp 2024, engaging with over 12,000 students from various institutions. This has ignited my commitment to contribute to the tech community.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 5 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/5.png" target="_blank">
+                            <img src="certifications/5.png" alt="Certification 5" class="img-fluid cert-img">
+                        </a>
+                        <h3><b><center>Analytics Participant</center></b></h3>
+                        <p>This enriching program not only deepened my understanding of Data Analytics but also equipped me with practical skills to tackle real-world problems. I'm grateful for the support from the Consulting and Analytics Club, which made this learning journey both meaningful and enjoyable.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 6 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/6.png" target="_blank">
+                            <img src="certifications/6.png" alt="Certification 6" class="img-fluid cert-img">
+                        </a>
+                        <h3><b><center>YBEP'24 Participant</center></b></h3>
+                        <p>Participated in the Young Barons Elevator Pitch - YBEP 2024, organized by Project Greenbucks, Enactus IGDTUW. This experience enhanced my skills in pitching ideas effectively and connecting with like-minded individuals.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 7 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/7.png" target="_blank">
+                            <img src="certifications/7.png" alt="Certification 7" class="img-fluid cert-img">
+                        </a>
+                        <h3><b><center>YBEP'24 Finalist</center></b></h3>
+                        <p>Participated in the Young Barons Elevator Pitch - YBEP 2024, organized by Project Greenbucks, Enactus IGDTUW, where I was among the top 10 finalists! I had the incredible opportunity to pitch my business idea to esteemed judges from all over India. It was a great experience that allowed me to showcase my passion.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 8 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/8.jpeg" target="_blank">
+                            <img src="certifications/8.jpeg" alt="Certification 8" class="img-fluid cert-img">
+                        </a>
+                        <h3><b><center>Drone Workshop</center></b></h3>
+                        <p>Participated in the Drone Workshop - Quadcopter under WIEMPOWER 5.0 by IEEE IGDTUW! I learned about cutting-edge technology and this experience has fueled my passion for innovation and has inspired me to further explore the exciting world of drones.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 9 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/15.png" target="_blank">
+                            <img src="certifications/15.png" alt="Certification 9" class="img-fluid cert-img">
+                        </a>
+                        <h3><b><center>SheCodes Basics</center></b></h3>
+                        <p>As part of the SheCodes Basics course, I developed a vibrant landing page for a yoga platform, honing my foundational web development skills in HTML, CSS, and JavaScript. This project reflects my commitment to creating engaging user experiences while exploring the enriching world of yoga.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 10 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/16.png" target="_blank">
+                            <img src="certifications/16.png" alt="Certification 10" class="img-fluid cert-img">
+                        </a>
+                        <h4><b><center>SheCodes Basics Add-on</center></b></h4>
+                        <p>Expanded my web development knowledge by learning advanced CSS techniques, responsive design principles, and enhancing my JavaScript capabilities. This course provided a deeper understanding of web technologies, equipping me to create dynamic and visually appealing websites that adapt seamlessly to various devices.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 11 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/17.png" target="_blank">
+                            <img src="certifications/17.png" alt="Certification 11" class="img-fluid cert-img">
+                        </a>
+                        <h3><b><center>SheCodes Plus AI</center></b></h3>
+                        <p>I delved deeper into web development while creating an AI poem generator. This project allowed me to combine my coding skills with artificial intelligence, enabling users to generate unique and creative poems at the click of a button. The experience enriched my understanding of AI integration in web applications.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 12 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/18.png" target="_blank">
+                            <img src="certifications/18.png" alt="Certification 12" class="img-fluid cert-img">
+                        </a>
+                        <h3><b><center>SheCodes Plus</center></b></h3>
+                        <p>I developed a weather app that provides real-time weather updates and forecasts. This project not only enhanced my proficiency in JavaScript and API integration but also allowed me to create a user-friendly interface for an engaging user experience. Through building this app, I gained valuable insights into handling data.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 13 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/19.png" target="_blank">
+                            <img src="certifications/19.png" alt="Certification 13" class="img-fluid cert-img">
+                        </a>
+                        <h3><b><center>SheCodes Plus Add-on</center></b></h3>
+                        <p>In the SheCodes Plus Add-on course, I developed a world clock generator that allows users to view the current time in various time zones around the world. This project provided me with hands-on experience in JavaScript and date handling, as I implemented functionalities to seamlessly display accurate times based on user-selected locations.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 14 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/20.jpg" target="_blank">
+                            <img src="certifications/20.jpg" alt="Certification 14" class="img-fluid cert-img">
+                        </a>
+                        <h3><b><center>SIH'2024 Pre-Qualifier</center></b></h3>
+                        <p>I participated in the SIH 2024 Pre-Qualifier, which allowed me to showcase my skills in problem-solving and innovation. During this event, I collaborated with a team to develop solutions for real-world challenges, enhancing my technical abilities and team collaboration experience. This opportunity sharpened my understanding of the importance of teamwork.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 15 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/21.jpg" target="_blank">
+                            <img src="certifications/21.jpg" alt="Certification 15" class="img-fluid cert-img">
+                        </a>
+                        <h4><b><center>Coding Club Content Team</center></b></h4>
+                        <p>As a member of the content team for my college's coding club, Code</>Geeks, for one year, I honed my skills in technical writing, content creation, and digital communication. I collaborated with team members to develop engaging tutorials, articles, and resources that helped foster a supportive learning environment for our community.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 16 -->
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/23.png" target="_blank">
+                            <img src="certifications/23.png" alt="Certification 16" class="img-fluid cert-img">
+                        </a>
+                        <h4><b><center>Postman API Fundamentals Student Expert</center></b></h4>
+                        <p>I earned the Postman Student Expert badge by demonstrating proficiency in using Postman for API interactions, including making GET, POST, PATCH, and DELETE requests. Through hands-on experience, I learned to manage query parameters, request bodies, headers, and implement API key authorization, enhancing my ability to integrate APIs effectively into applications for improved functionality.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 17 
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/19.png" target="_blank">
+                            <img src="certifications/19.png" alt="Certification 17" class="img-fluid cert-img">
+                        </a>
+                        <h3><b>SheCodes Plus Add-on</b></h3>
+                        <p>In the SheCodes Plus Add-on course, I developed a world clock generator that allows users to view the current time in various time zones around the world. This project provided me with hands-on experience in JavaScript and date handling, as I implemented functionalities to seamlessly display accurate times based on user-selected locations.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 18
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/19.png" target="_blank">
+                            <img src="certifications/19.png" alt="Certification 18" class="img-fluid cert-img">
+                        </a>
+                        <h3><b>SheCodes Plus Add-on</b></h3>
+                        <p>In the SheCodes Plus Add-on course, I developed a world clock generator that allows users to view the current time in various time zones around the world. This project provided me with hands-on experience in JavaScript and date handling, as I implemented functionalities to seamlessly display accurate times based on user-selected locations.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 19 
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/19.png" target="_blank">
+                            <img src="certifications/19.png" alt="Certification 19" class="img-fluid cert-img">
+                        </a>
+                        <h3><b>SheCodes Plus Add-on</b></h3>
+                        <p>In the SheCodes Plus Add-on course, I developed a world clock generator that allows users to view the current time in various time zones around the world. This project provided me with hands-on experience in JavaScript and date handling, as I implemented functionalities to seamlessly display accurate times based on user-selected locations.</p>
+                    </div>
+                </div>
+
+                <!-- Certification 20
+                <div class="col-md-4 ftco-animate">
+                    <div class="certification-wrap">
+                        <a href="certifications/19.png" target="_blank">
+                            <img src="certifications/19.png" alt="Certification 20" class="img-fluid cert-img">
+                        </a>
+                        <h3><b>SheCodes Plus Add-on</b></h3>
+                        <p>In the SheCodes Plus Add-on course, I developed a world clock generator that allows users to view the current time in various time zones around the world. This project provided me with hands-on experience in JavaScript and date handling, as I implemented functionalities to seamlessly display accurate times based on user-selected locations.</p>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+		<div class="container">
+		  <div class="row d-md-flex align-items-center">
+			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+			  <div class="block-18">
+				<div class="text">
+				  <strong class="number" data-number="5">0</strong>
+				  <span>Achievements</span>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+			  <div class="block-18">
+				<div class="text">
+				  <strong class="number" data-number="15">0</strong>
+				  <span>Projects</span>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+			  <div class="block-18">
+				<div class="text">
+				  <strong class="number" data-number="50">0</strong>
+				  <span>Mentored Students in GSSOC'24</span>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+			  <div class="block-18">
+				<div class="text">
+				  <strong class="number" data-number="500">0</strong>
+				  <span>Cups of coffee</span>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  
+		<div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+			  <!-- <div class="container"> -->
+				  <div class="row justify-content-center">
+					  <div class="col-md-7 ftco-animate text-center">
+						  <h2>More projects on<span> Github  </span> </h2>
+						  <div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
+						  <br>
+						  <p><a href="https://github.com/jigyasaG18" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						  </div>
+					  </div>
+				  </div>
+			  <!-- </div> -->
+		  </div>
+	  </section>
+  
+  
+  
+	  <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+			  <h1 class="big big-2">Contact</h1>
+              <div class="row">
+                <h2 class="big-4">Contact Me</h2>
+                <div class="underline"></div>
+            </div>
+            <br>
+			  <p><h5>Below are the details to reach out to me!</h5></p>
+			</div>
+		  </div>
+  
+		  <div class="row d-flex contact-info mb-5">
+			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+				<div class="align-self-stretch box p-4 text-center">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<span class="icon-home"></span>
+					</div>
+					<h3 class="mb-4">Address</h3>
+				  <p>Delhi, India</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+				<div class="align-self-stretch box p-4 text-center">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<span class="icon-linkedin"></span>
+					</div>
+					<h3 class="mb-4">LinkedIn</h3>
+				  <p><a href="https://www.linkedin.com/in/jigyasa-4503982a1">Connect</a></p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+				<div class="align-self-stretch box p-4 text-center">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<span class="icon-github"></span>
+					</div>
+					<h3 class="mb-4">GitHub</h3>
+				  <p><a href="https://www.github.com/jigyasaG18">Projects</a></p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+				<div class="align-self-stretch box p-4 text-center">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<span class="icon-globe"></span>
+					</div>
+					<h3 class="mb-4">Download Resume</h3>
+				  <p><a href="#">Resume</a></p>
+				</div>
+			</div>
+  
+			<div class="container">
+			  <br>
+			  <br>
+			  <div class="row justify-content-center">
+				  <div class="col-md-7 ftco-animate text-center">
+					  <h2>Have a<span> Question?  </span> <a href="https://www.linkedin.com/in/jigyasa-4503982a1" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				  </div>
+			  </div>
+				  <br>
+					  <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+						<li class="ftco-animate normal-txt">Find me on  </li>
+						<li class="ftco-animate"><a href="https://www.linkedin.com/in/jigyasa-4503982a1"><span class="icon-linkedin"></span></a></li>  
+						<li class="ftco-animate"><a href="https://www.github.com/jigyasaG18"><span class="icon-github"></span></a></li>  
+					  </ul>
+				  <br>
+			 </div>
+	 </div>
+   </section>
+  
+  
+   
+	  
+	  <footer class="ftco-footer ftco-section">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-md-12 text-center">
+	
+				<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			  </div>
+			</div>
+		  </div>
+		</footer>
+  
+  
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  
+  
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	
+	<script src="js/main.js"></script>
+    <script>
+         const codeSnippet = document.getElementById('codeSnippet');
+
+         codeSnippet.classList.add('shine'); // using JS to add shine on load
+        
+        codeSnippet.addEventListener('click', function() {
+            // Toggle shine effect if you still want to allow clicking
+            this.classList.toggle('shine');
+    });
+    </script>
+	  
+	</body>
+  </html>
